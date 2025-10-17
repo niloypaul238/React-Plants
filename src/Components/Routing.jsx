@@ -4,6 +4,7 @@ import { Component } from "react";
 import Home from "./Home";
 import Plants from "./Plants";
 import AddCard from "./AddCard";
+import PlantsDtls from "./PlantsDtls";
 
 
 const router = createBrowserRouter([
@@ -12,8 +13,9 @@ const router = createBrowserRouter([
     Component: App,
     children:[
       {index : true,Component: Home},
-      {path : "/Plants",Component: Plants},
-      {path : "/card",Component: AddCard}
+      {path : "/Plants",loader:()=>fetch("http://openapi.programming-hero.com/api/plants"),Component: Plants},
+      {path : "/card",Component: AddCard},
+      {path : "/detals/:id",Component: PlantsDtls}
 
     ]
   },

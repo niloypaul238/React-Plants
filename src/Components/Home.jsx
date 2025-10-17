@@ -11,6 +11,9 @@ const Home = () => {
         fetch('http://openapi.programming-hero.com/api/plants').then(res => res.json()).then(data => setPlats(data.plants
 ))
     },[])
+   
+
+
     return (
         <>
             <div className='w-11/12 mx-auto my-6'>

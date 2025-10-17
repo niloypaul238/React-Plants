@@ -11,8 +11,8 @@ const Header = () => {
                 </div>
                 <div className='relative  flex w-[100%] gap-x-6'>
 
-                    <img src="/public/pngtree-a-potted-plant-png-image_13590090.png" className=' rounded-tr-2xl rounded-bl-2xl left-0 top-0 border h-[100%] w-[50%] mt-[-20px]' alt="" />
-                    <img src="/public/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEwL3Jhd3BpeGVsX29mZmljZV8zMl9waG90b19vZl9hX3BsYW50X2luX2hvbWVfaXNvbGF0ZWRfb25fd2hpdGVfYl83YmViOTc1.webp" className=' rounded-tr-2xl rounded-bl-2xl right-0 bottom-0 border h-[100%] w-[50%] mt-[20px]' alt="" />
+                    <img src="/public/pngtree-a-potted-plant-png-image_13590090.png" className=' shadow-lg shadow-gray-500/50 border-gray-300 rounded-tr-2xl rounded-bl-2xl left-0 top-0 border h-[100%] w-[50%] mt-[-20px]' alt="" />
+                    <img src="/public/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEwL3Jhd3BpeGVsX29mZmljZV8zMl9waG90b19vZl9hX3BsYW50X2luX2hvbWVfaXNvbGF0ZWRfb25fd2hpdGVfYl83YmViOTc1.webp" className='shadow-lg shadow-gray-500/50 border-gray-300 rounded-tr-2xl rounded-bl-2xl right-0 bottom-0 border h-[100%] w-[50%] mt-[20px]' alt="" />
                 </div>
             </div>
         </header>
