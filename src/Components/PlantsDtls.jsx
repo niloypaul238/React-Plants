@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import { getData, setLocal } from './useCustomHooks';
+import { SetLocal } from './CustomHooks';
 
 const PlantsDtls = () => {
     let idGet = useParams()
     let [dtls , setDtls] = useState({})
 
-    let handleBye = () =>{
-        let storeGet = setLocal()
-        console.log(storeGet);
+    let handleBye = (id) =>{
+        SetLocal(id)
+        
     }
 
 

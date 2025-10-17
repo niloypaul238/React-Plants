@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     children:[
       {index : true,Component: Home},
       {path : "/Plants",loader:()=>fetch("http://openapi.programming-hero.com/api/plants"),Component: Plants},
-      {path : "/card",Component: AddCard},
+      {path : "/card",loader:()=>fetch("http://openapi.programming-hero.com/api/plants"),Component: AddCard},
       {path : "/detals/:id",Component: PlantsDtls}
 
     ]

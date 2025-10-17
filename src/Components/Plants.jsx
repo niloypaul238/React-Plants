@@ -4,7 +4,7 @@ import Card from './Card';
 
 const Plants = () => {
     let {plants} = useLoaderData()
-    console.log(plants)
+    //console.log(plants)
     return (
         <div className='mx-auto w-11/12'>
                     <p className='mt-4 gap-3 text-xl inportFont2 text-green-900 '>Total Trees : - {plants.length}</p>  
